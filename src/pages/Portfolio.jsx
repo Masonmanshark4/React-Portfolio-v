@@ -2,20 +2,18 @@
 import React from 'react';
 import Project from '../components/Project';
 import './styles/Portfolio.css';
-import project1 from '../assets/project1.jpg';
-import project2 from '../assets/project2.jpg';
-import project3 from '../assets/Marvel rocks.gif';
-import project4 from '../assets/weather-site.png';
-import project5 from '../assets/quiz-code.png';
-import project6 from '../assets/Portfolio-pre-launch.png';
+import marvel from '../assets/Marvel rocks.gif';
+import weather from '../assets/weather-site.png';
+import quiz from '../assets/quiz-code.png';
+import portfolio from '../assets/Portfolio-pre-launch.png';
 
 const projects = [
-  { title: 'Mother-Music', image: project1, deployed: 'https://project1.com', repo: 'https://github.com/Masonmanshark4/Mother-Music' },
-  { title: 'Before-MySpace', image: project2, deployed: 'https://project2.com', repo: 'https://github.com/Masonmanshark4/Before-MySpace' },
-  { title: 'A-Marvel-Quiz', image: project3, deployed: 'https://project3.com', repo: 'https://github.com/Masonmanshark4/The-Marvel-Chronicles-Knowledge-Saga'},
-  { title: 'Weather-Site', image: project4, deployed: 'https://project4.com', repo: 'https://github.com/Masonmanshark4/Weather-Site'},
-  { title: 'Coding-Quiz', image: project5, deployed: 'https://project5.com', repo: 'https://github.com/Masonmanshark4/Quiz-Code'},
-  { title: 'The-Beginning', image: project6, deployed: 'https://project6.com', repo: 'https://github.com/Masonmanshark4/The-Beginning'}
+  { title: 'Mother-Music', deployed: 'https://mother-music-b890c71f6170.herokuapp.com/', repo: 'https://github.com/Masonmanshark4/Mother-Music' },
+  { title: 'Before-MySpace', deployed: 'N/A', repo: 'https://github.com/Masonmanshark4/Before-MySpace' },
+  { title: 'A-Marvel-Quiz', image: marvel, deployed: 'https://masonmanshark4.github.io/The-Marvel-Chronicles-Knowledge-Saga/', repo: 'https://github.com/Masonmanshark4/The-Marvel-Chronicles-Knowledge-Saga'},
+  { title: 'Weather-Site', image: weather, deployed: 'https://masonmanshark4.github.io/Weather-Site/', repo: 'https://github.com/Masonmanshark4/Weather-Site'},
+  { title: 'Coding-Quiz', image: quiz, deployed: 'https://masonmanshark4.github.io/Quiz-Code/', repo: 'https://github.com/Masonmanshark4/Quiz-Code'},
+  { title: 'The-Beginning', image: portfolio, deployed: 'https://masonmanshark4.github.io/Portfolio/', repo: 'https://github.com/Masonmanshark4/The-Beginning'}
   
 ];
 
