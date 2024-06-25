@@ -1,0 +1,10 @@
+/* src/pages/styles/Portfolio.css */
+#portfolio {
+    font-family: "Gothic", sans-serif;
+    color: black;
+    background: rgb(7, 37, 206);
+    background: linear-gradient(90deg, rgba(7, 37, 206, 1) 0%, rgba(10, 185, 26, 1) 50%, rgba(6, 212, 99, 1) 100%);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  

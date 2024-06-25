@@ -1,0 +1,22 @@
+/* src/components/styles/Footer.css */
+footer {
+    font-family: "Gothic", sans-serif;
+    color: black;
+    background: rgb(7, 37, 206);
+    background: linear-gradient(90deg, rgba(7, 37, 206, 1) 0%, rgba(10, 185, 26, 1) 50%, rgba(6, 212, 99, 1) 100%);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    margin: 0 10px;
+    border: 1px solid black;
+  }
+  
+  footer a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
