@@ -4,6 +4,10 @@ import Project from '../components/Project';
 import './styles/Portfolio.css';
 import project1 from '../assets/project1.jpg';
 import project2 from '../assets/project2.jpg';
+import project3 from '../assets/Marvel rocks.gif';
+import project4 from '../assets/weather-site.png';
+import project5 from '../assets/quiz-code.png';
+import project6 from '../assets/Portfolio-pre-launch.png';
 
 const projects = [
   { title: 'Mother-Music', image: project1, deployed: 'https://project1.com', repo: 'https://github.com/Masonmanshark4/Mother-Music' },
